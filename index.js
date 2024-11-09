@@ -124,24 +124,28 @@ async function searchRecipeByType(recipeType) {
     });
     return recipes;
   } catch (error) {
-    throw new Error(
-      `Error while searching recipes for this type: "${recipeType}"...`
-    );
+    console.error("Error while searching recipes for type:", recipeType, error);
+    throw new Error("Error while searching recipes");
   }
 }
 
-app.get("/recipes/search/:type", async(req,res)=>{
-    try{
-        const recipes = await searchRecipeByType(req.params.type);
-        if(recipes.length !=0 ){
-            res.status(200).json(recipes);
-        }else{
-            res.status(404).json({message: "No recipes found for the given type"});
-        }
-    }catch(error){
-        res.status(500).json({error: "Error searching recipes"});
+app.get("/recipes/search/:type", async (req, res) => {
+  const { type } = req.params;
+  if (!type) {
+    return res.status(400).json({ message: "Please provide a recipe type to search for" });
+  }
+
+  try {
+    const recipes = await searchRecipeByType(type);
+    if (recipes.length !== 0) {
+      res.status(200).json(recipes);
+    } else {
+      res.status(404).json({ message: `No recipes found for type "${type}"` });
     }
-})
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+});
 
 async function removeRecipe(recipeId) {
   try {
