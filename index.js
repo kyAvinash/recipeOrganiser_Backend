@@ -1,9 +1,15 @@
 const express = require("express");
-const app = express();
+const cors = require("cors");
 
+const { initializeDatabase } = require("./db/db.connect");
+
+const Recipe = require("./models/recipes.models");
+
+
+const app = express();
 const PORT = 4000;
 
-const cors = require("cors");
+
 const corsOptions = {
   origin: "*",
   credentials: true,
@@ -11,11 +17,6 @@ const corsOptions = {
 };
 
 app.use(cors(corsOptions));
-
-const { initializeDatabase } = require("./db/db.connect");
-
-const Recipe = require("./models/recipes.models");
-
 app.use(express.json());
 
 initializeDatabase();
