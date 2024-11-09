@@ -117,7 +117,7 @@ app.get("/recipes/:id", async (req, res) => {
   }
 });
 
-/*
+
 async function searchRecipeByType(recipeType) {
   try {
     const recipes = await Recipe.find({
@@ -147,8 +147,6 @@ app.get("/recipes/search/:type", async (req, res) => {
     res.status(500).json({ error: error.message });
   }
 });
-
-*/
 
 
 async function removeRecipe(recipeId) {
