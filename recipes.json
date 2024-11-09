@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Beef Stir-Fry",
+    "cuisineType": "Asian",
+    "imageLink": "https://images.pexels.com/photos/24405874/pexels-photo-24405874/free-photo-of-a-dish-with-meat-and-vegetables-sprinkled-with-sesame.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "ingredients": "500g beef sirloin, thinly sliced; 1 red bell pepper, sliced; 1 green bell pepper, sliced; 1 onion, sliced; 2 cloves garlic, minced; 3 tablespoons soy sauce; 2 tablespoons oyster sauce; 1 tablespoon cornstarch; 1 tablespoon vegetable oil; Salt and pepper to taste",
+    "cookingInstructions": "1. In a small bowl, whisk together soy sauce, oyster sauce, cornstarch, salt, and pepper. 2. Heat oil in a wok or large skillet over high heat. 3. Add beef slices and stir-fry until browned. Remove from the wok and set aside. 4. In the same wok, add garlic, bell peppers, and onion. Stir-fry until vegetables are crisp-tender. 5. Return beef to the wok and pour in the sauce mixture. 6. Stir-fry for a minute until the sauce thickens and coats the ingredients. 7. Serve hot with steamed rice or noodles."
+  },
+  {
+    "name": "Classic Spaghetti Bolognese",
+    "cuisineType": "Italian",
+    "imageLink": "https://images.pexels.com/photos/41194/beef-cheese-cuisine-delicious-41194.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "ingredients": "400g spaghetti; 1 tablespoon olive oil; 1 onion, finely chopped; 2 garlic cloves, minced; 500g ground beef; 1 can diced tomatoes; 2 tablespoons tomato paste; 1 cup beef stock; Salt and pepper to taste; Fresh basil for garnish",
+    "cookingInstructions": "1. Cook the spaghetti according to the package instructions, then drain. 2. In a large skillet, heat olive oil over medium heat. Add onion and garlic, cooking until softened. 3. Add ground beef and cook until browned. 4. Stir in diced tomatoes, tomato paste, and beef stock. Season with salt and pepper. 5. Let the sauce simmer for 20-30 minutes, stirring occasionally. 6. Serve the sauce over spaghetti and garnish with fresh basil."
+  },
+  {
+    "name": "Chicken Curry",
+    "cuisineType": "Indian",
+    "imageLink": "https://images.pexels.com/photos/10445627/pexels-photo-10445627.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "ingredients": "500g chicken breast, diced; 2 tablespoons vegetable oil; 1 onion, chopped; 3 garlic cloves, minced; 1 tablespoon ginger, grated; 2 tablespoons curry powder; 1 can coconut milk; Salt to taste; Fresh coriander for garnish",
+    "cookingInstructions": "1. In a large pan, heat vegetable oil over medium heat. Add onion, garlic, and ginger, cooking until softened. 2. Add curry powder and cook for another minute to release the flavors. 3. Add the chicken and cook until browned. 4. Pour in coconut milk and season with salt. 5. Let the curry simmer for 15-20 minutes until the chicken is cooked through and the sauce has thickened. 6. Garnish with fresh coriander and serve hot with rice or naan."
+  },
+  {
+    "name": "Caprese Salad",
+    "cuisineType": "Italian",
+    "imageLink": "https://images.pexels.com/photos/20182334/pexels-photo-20182334/free-photo-of-vegetables-salad-on-plate.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "ingredients": "4 ripe tomatoes, sliced; 200g fresh mozzarella cheese, sliced; Fresh basil leaves; 2 tablespoons olive oil; Salt and black pepper to taste; Balsamic glaze for drizzling",
+    "cookingInstructions": "1. Arrange tomato and mozzarella slices alternately on a plate. 2. Tuck fresh basil leaves between slices. 3. Drizzle with olive oil and balsamic glaze. 4. Season with salt and black pepper. 5. Serve immediately."
+  }
+]
